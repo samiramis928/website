@@ -1,0 +1,128 @@
+/* --- Styles sheets -------------------------------------------------------*/
+@import 'w3.css';
+@import 'normalize.css';
+@import '../font/fontawesome-free-5.0.2/web-fonts-with-css/css/fontawesome-all.min.css';
+/* ------------------------------------------------------------------------*/
+/* --- Font -------------------------------------------------------------- */
+@font-face{ 
+	font-family: 'RobotItalic';
+	src: url('../font/Roboto-Italic-webfont.woff') format('woff');
+}
+@font-face{ 
+	font-family: 'RobotoMedium';
+	src: url('../font/Roboto-Medium-webfont.woff') format('woff');
+}
+@font-face{ 
+	font-family: 'RobotoRegular';
+	src: url('../font/Roboto-Regular-webfont.woff') format('woff');
+}
+@font-face{ 
+	font-family: 'RobotoThin';
+	src: url('../font/Roboto-Thin-webfont.woff') format('woff');
+}
+/* ------------------------------------------------------------------------*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'RobotoRegular', Arial, sans-serif;
+	background-color: rgb(0, 255, 0);
+}
+.circle { 
+	width: 12px; 
+	height: 12px;
+	margin: 1px;
+	float: left; 
+	background-color: white; 
+	-moz-border-radius: 12px; 
+	-webkit-border-radius: 12px; 
+	border-radius: 12px; 
+}
+.container-circle {
+	margin: 0 auto;
+	padding: 0;
+	float: left;
+}
+.container-circle-footer {
+	margin: 0 auto;
+	padding: 12px;
+	float: right;
+}
+.text-footer{
+	margin: 0 auto;
+	padding: 0;
+	font-size:  11px;
+	text-transform: capitalize;
+}
+.w3-card-4{
+	margin: 0;
+	padding: 0;
+	box-shadow: none;
+}
+.w3-bar-block{
+	padding: 0;
+}
+.header{
+	margin: 0px;
+	padding: 12px;
+}
+.main{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.nav{
+	padding: 0;
+	background-color: white;
+	margin-bottom: 15px;
+	width:100%;
+	min-width:8%;
+	font-family: 'RobotoMedium', Arial, sans-serif;
+}
+.social ul {
+    padding: 1px;
+}
+.social li {
+	padding: 3px;
+    display: inline;
+    border-bottom: none;
+}
+.tag ul {
+    padding: 1px;
+    margin: 2px;
+}
+.tag li {
+	padding: 3px;
+    display: inline;
+    border-bottom: none;
+}
+article{
+	margin-bottom: 15px;
+	padding: 0;
+	font-family: 'RobotoRegular', Arial, sans-serif;
+	background-color: white;
+}
+article h3{
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+article h3,h6{
+	font-family: 'RobotoMedium', Arial, sans-serif;
+}
+.date{
+	font-family: 'RobotoThin', Arial, sans-serif;
+}
+.legende{
+	font-family: 'RobotItalic', Arial, sans-serif;
+}
+.w3-bar-item{
+	letter-spacing: 2px;
+}
+.side{
+	background-color: rgb(128, 0, 128);
+	font-family: arial;
+}
+.side a{
+	text-decoration:none;
+}
+hr{
+	border-top: 1px solid transparent;
+}
